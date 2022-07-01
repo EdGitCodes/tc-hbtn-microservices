@@ -1,0 +1,15 @@
+Os microsserviços (ou a arquitetura de microsserviços) consistem em uma abordagem arquitetônica nativa de cloud na qual um único aplicativo é composto de muitos componentes ou serviços menores que são implementáveis de forma independente e têm acoplamento fraco. Esses serviços normalmente
+
+    têm a própria stack de tecnologia, incluindo o modelo de banco de dados e gerenciamento de dados;
+    comunicam-se sobre uma combinação de APIs de REST, fluxos de eventos e brokers de mensagens; e
+    são organizados por recurso de negócios, com a linha separando os serviços que, muitas vezes, são chamados de contexto delimitado.
+
+Embora grande parte da discussão sobre os microsserviços tenha sido relacionada a definições e características arquitetônicas, seu valor pode ser mais facilmente compreendido por meio de benefícios corporativos e de negócios bastante simples:
+
+    O código pode ser atualizado mais facilmente, novos recursos ou funcionalidades podem ser incluídos sem mudar nenhuma parte do aplicativo
+    As equipes podem usar stacks e linguagens de programação diferentes para componentes diferentes.
+    É possível ajustar a escala dos componentes de forma independente, reduzindo o desperdício e o custo associado ao ajuste de escala de aplicativos inteiros, como nos casos em que há um único recurso sobrecarregado.
+
+Os microsserviços também podem ser entendidos pelo que não são. As duas comparações mais frequentemente associadas à arquitetura de microsserviços são a arquitetura monolítica e a arquitetura orientada a serviços (SOA).
+
+A abordagem da arquitetura monolítica é composta de um grande aplicativo com acoplamento forte, o que é diferente da arquitetura de microsserviços, na qual os microsserviços compõem um único aplicativo de muitos serviços menores com acoplamento fraco.
